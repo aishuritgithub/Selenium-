@@ -1,0 +1,13 @@
+package aaa;
+
+import org.openqa.selenium.WebDriver;
+
+public class sourcedemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+WebDriver driver = new driver();
+driver.get("https://www.saucedemo.com/v1/");
+	}
+
+}

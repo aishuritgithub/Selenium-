@@ -1,0 +1,13 @@
+package com.right.first;
+
+import org.openqa.selenium.WebDriver;
+
+public class Meesho {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver Driver = new MeeshoDriver();
+	    driver.get("https://www.meesho.com/?srsltid=AfmBOoqz27IIAZqDAVjzdU6JGgbPrDoLnfxWiabbVZlx4teFRSndG0i9");
+	       driver.manage().window().maximize();
+
+}
